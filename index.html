@@ -19,22 +19,21 @@
     <div id="timer">
         <i class="far fa-clock"></i> Time: <span id="timeLeft">0</span>
     </div>
-    <div id="timesUp" class="col text-right" style="display: none;">Time's Up!</div>
+    <div id="timeUp" class="col text-right" style="display: none;">Time's Up!</div>
 </header>
 
 <body>
-    <!-- Start Quiz Intro
+    <!-- Start Quiz Intro -->
     <div class="info_box">
-        <div class="info-title"><span>Coding Quiz Challenge</span></div>
-        <div>
+        <div class="info-title"></div>
+        <div id="start" class="m-2 justify-content-center">
+            <h1>Coding Quiz Challenge</h1>
             <p>Try to answer the following code-related questions within the time limit. <br>
                 Keep in mind that incorrect answers will penalize your score/time by 3 seconds!
             </p>
+             <button type="button" id="start-quiz-button" class="btn btn-info ml-5 align-center">Start Quiz</button>
         </div>
-        <div class="buttons">
-            <button class="start-button">Start Quiz</button>
-        </div>
-    </div> -->
+    </div>
 
     <main class="container" class="row text-left">
         <div id="question-container" class="hide">
