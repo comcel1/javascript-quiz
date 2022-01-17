@@ -14,10 +14,7 @@
 header {
     height: 15vh;
     width: 100vw;
-    display: flex;
-    justify-content: space-between;
     padding: 15px;
-    /* border: red solid 3px; */
 }
 
 .high-score {
@@ -28,8 +25,6 @@ header {
 
 .timer {
     width: 25%;
-    justify-content: right;
-    text-align: right;
     padding: 15px;
     margin: 15px;
 }
@@ -52,13 +47,7 @@ main {
     padding: 5%;
 } 
 
-/* .question-container {
-    font-size: 400px;
-    color: red;
-    border: red solid 3px;
-}  */
-
-.question {
+.questionDiv {
     font-size: 36px;
     font-weight: bold;
 }
